@@ -122,7 +122,7 @@ li:before {
     background-image: linear-gradient(to bottom, #f4b261 0%, #f1685f 100%);
     border-radius: 100px;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .inside-container{
         flex-direction: column;
     }
@@ -132,7 +132,24 @@ li:before {
     .inside-container p a{
         font-size: small;
     }
-
+    .projects{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+    }
+    .card img{
+        margin-top: 15px;
+        width: 100%;
+        height: 80%;
+        border-radius: 20px;
+        box-shadow: rgba(45, 27, 27, 0.35) 0px 5px 15px;
+        cursor: pointer;
+    }
     .sidebar{
         width: 100%;
         height: 80px;
